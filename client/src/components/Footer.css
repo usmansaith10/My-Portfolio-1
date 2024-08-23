@@ -1,0 +1,38 @@
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.site-footer .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    cursor: pointer;
+}
+
+.site-footer .footer-links li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.site-footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-footer .footer-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,74 @@
+.container{
+    max-width: 140rem;
+    padding: 4.2rem 4.3rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+ul{
+    display: flex;
+    gap: 3.2rem;
+}
+.container {
+    max-width: 140rem; /* Container width */
+    padding: 4.2rem 4.3rem; /* Container padding */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .logo_brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Horizontal alignment of nav items */
+    gap: 3.2rem; /* Space between nav items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  nav ul li {
+    position: relative; /* Needed for positioning the sliding line */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove default underline */
+    color: var(--btn--color); /* Default link color */
+    padding: 0.5rem 0; /* Padding around the link */
+    font-size: 1.5rem; /* Font size for links */
+    font-weight: 500; /* Slightly bolder text */
+    display: block; /* Make links block level for padding */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fff; /* Change color on hover */
+  }
+  
+  nav ul li::after {
+    content: ''; /* Empty content for pseudo-element */
+    position: absolute; /* Positioning relative to the list item */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width of the list item */
+    height: 2px; /* Height of the sliding line */
+    background-color: #007bff; /* Color of the sliding line */
+    transition: transform 0.3s ease; /* Smooth transition for sliding effect */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: bottom right; /* Origin of the scaling effect */
+  }
+  
+  nav ul li:hover::after {
+    transform: scaleX(1); /* Expand to full width on hover */
+  }
+
+  .logout {
+    cursor: pointer;
+    
+  }

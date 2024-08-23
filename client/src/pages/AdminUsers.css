@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-size: 15px;
+}
+
+.container {
+    width: 106%;
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Admin Users Section */
+.admin-users-section {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.admin-users-section h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007bff;
+    color: #000000;
+}
+
+th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #000000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #000000;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #8a7d7d;
+}
+
+
+

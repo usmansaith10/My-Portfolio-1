@@ -1,0 +1,87 @@
+.privacy-policy{
+    margin: 0 3rem;
+  }
+  
+.text-size{
+    font-size: 30px;
+}
+
+.paragraph-1{
+    margin: 0 4rem;
+}
+
+/* PrivacyPolicy.css */
+
+/* General Styles */
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0 8rem;
+    padding: 2rem;
+    max-width: 1000px;
+}
+
+.privacy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.privacy-header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+}
+
+.privacy-header .effective-date {
+    font-size: 2rem;
+    color: #fbfbfb;
+}
+
+/* Content Styling */
+.privacy-content {
+    padding: 1rem 0;
+}
+
+.privacy-content section {
+    margin-bottom: 2rem;
+}
+
+.privacy-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.privacy-content p {
+    margin-bottom: 1rem;
+}
+
+/* List Styles */
+ul.custom-bullet {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+ul.custom-bullet li {
+    position: relative;
+    padding-left: 1.5rem; /* Add space for custom bullet */
+}
+
+ul.custom-bullet li::before {
+    content: '•'; /* Custom bullet character */
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Custom bullet color */
+    font-size: 1.5rem; /* Bullet size */
+}
+
+ol.lower-alpha-list {
+    list-style-type: lower-alpha; /* Custom numbered style (a, b, c, ...) */
+    padding-left: 2rem; /* Adjust the indentation of the list */
+}
+
+ul.square-list {
+    list-style-type: square; /* Custom bullet style */
+    padding-left: 2rem; /* Adjust the indentation of the list */
+}
